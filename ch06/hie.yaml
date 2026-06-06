@@ -1,0 +1,10 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "ch06:lib"
+
+    - path: "./app/Main.hs"
+      component: "ch06:exe:ch06-exe"
+
+    - path: "./test"
+      component: "ch06:test:ch06-test"
